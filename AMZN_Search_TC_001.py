@@ -1,7 +1,7 @@
-# from selenium import webdriver
+x# from selenium import webdriver
 base_url="https://www.amazon.in"
 # declare and initialize driver variable
-driver=webdriver.Chrome(executable_path="./chromedriver")
+driver=webdriver.Firefox()
 # browser should be loaded in maximized window
 driver.maximize_window()
 # driver should wait implicitly for a given duration, for the element under consideration to load.
