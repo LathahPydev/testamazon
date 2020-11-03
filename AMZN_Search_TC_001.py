@@ -1,4 +1,4 @@
-x# from selenium import webdriver
+# from selenium import webdriver
 base_url="https://www.amazon.in"
 # declare and initialize driver variable
 driver=webdriver.Firefox()
