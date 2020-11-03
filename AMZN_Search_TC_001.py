@@ -2,7 +2,7 @@ from selenium import webdriver
 base_url="https://www.amazon.in"
 # declare and initialize driver variable
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--single-process')
+chrome_options.add_argument('--headless')
 driver=webdriver.Chrome(executable_path="/home/indiumsoftware/TeamsworkIQPOC/int-test/prototype_framework/drivers/chromedriver", chrome_options=chrome_options)
 # browser should be loaded in maximized window
 driver.maximize_window()
